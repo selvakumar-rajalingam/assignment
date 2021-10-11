@@ -1,0 +1,21 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Selvakumar",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.5",
+    "path": "^0.12.7"
+  }
+}
