@@ -1,25 +1,44 @@
-#1. Add User
+#**Step 1**: Download or clone the files.
 
-API URL: localhost:3000/user
+#**Step 2**: **npm update** to install the corresponding packages.
 
-Method: POST
+#**Step 3**: Please find the below placeholders in index.js and replace with your corresponding values.
+ - You can create test/development account from https://cloud.mongodb.com/ and replace the below placeholders or use your connection string for that.
+   - #username#
+   - #password
+   - #dbname#
 
-#Params:
-
-  firstname
+ - You can create test/development account from https://api.cloudamqp.com/ and replace the connection string in the below placeholder.
+   - #amqpurl#
   
-  lastname
+ - Use your SMTP details in the below placeholders.
+   - #gmailid#
+   - #gmailidpwd#
+
+#**Step 4**: **npm start** to start the services.
+
+#**Step 5**: To add a new user.
+
+- API URL: localhost:3000/user
+
+- Method: POST
+
+- #Params:
+
+  - firstname
   
-  email
+  - lastname
   
-  age
+  - email
   
-#2. Send News letter by uploading CSV file
+  - age
+  
+#**Step 6**: To Send News letter by uploading CSV file
 
-API URL: localhost:3000/sendnewsletter
+ - API URL: localhost:3000/sendnewsletter
 
-Method: POST
+ - Method: POST
 
-#Param: csv_file
+ - #Param: csv_file
 
-*Please refer sample.csv
+  - *Please refer sample.csv
